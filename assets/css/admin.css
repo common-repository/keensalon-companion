@@ -1,0 +1,70 @@
+#package_meta_box p {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px; }
+
+#package_meta_box p label {
+  font-weight: bold;
+  width: 100%; }
+
+#package_meta_box p input {
+  width: 100%;
+  display: block;
+  font-weight: normal; }
+
+#package_meta_box p .button {
+  align-self: end; }
+
+#package_meta_box p label[for="package_title"] {
+  grid-column: 1/10; }
+
+#package_meta_box p label[for="package_price"] {
+  grid-column: 10/12; }
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+img {
+  max-width: 100%;
+  height: auto; }
+
+.keensalon-remove-icon {
+  background: url("../images/ico-delete.png");
+  top: 0;
+  display: block;
+  height: 16px;
+  padding: 0;
+  position: absolute;
+  text-indent: -9999px;
+  width: 16px;
+  cursor: pointer;
+  right: 0; }
+
+.keensalon-remove-image {
+  background: url("../images/ico-delete.png");
+  display: block;
+  height: 16px;
+  right: 0;
+  padding: 0;
+  position: absolute;
+  text-indent: -9999px;
+  width: 16px;
+  cursor: pointer; }
+
+.link-image-repeat .widget-upload {
+  margin-bottom: 20px; }
+
+.keensalon-screenshot {
+  margin: 20px 0 10px;
+  position: relative; }
+
+.keensalon-remove-image {
+  margin-top: 10px;
+  display: inline-block; }
+
+.keensalon-upload-button {
+  margin-top: 10px !important; }
+
+.package_category label {
+  display: block; }
